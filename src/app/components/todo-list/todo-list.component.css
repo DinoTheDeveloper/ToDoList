@@ -1,0 +1,39 @@
+.container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .add-todo {
+    margin-bottom: 20px;
+  }
+  
+  .add-todo input {
+    padding: 8px;
+    margin-right: 8px;
+  }
+  
+  .todo-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+  }
+  
+  .todo-list span {
+    margin: 0 10px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  button {
+    padding: 8px;
+    cursor: pointer;
+  }
